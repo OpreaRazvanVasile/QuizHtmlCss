@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Nunito+Sans:ital,wght@0,400;1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#0DD0D6  ;
+    background-image:linear-gradient(#48FF5F 35%,#BDFC5B 100% ) ;
+    font-family:'Indie Flower', cursive; 
+    display:flex ;
+    flex-direction:column ;
+    align-items:center ;
+    justify-content:center ;
+    height:100vh ;
+    overflow: hidden;
+    font-size:x-large ;
+  
+}
+.quiz-container{
+  
+   
+    background-color:#000843  ;
+    background-image:linear-gradient(#475BFF ,#000843 ) ;
+    border:2px solid #eeff00 ;
+    width:600px;
+    border-radius:20% ;
+   
+    overflow: hidden;
+    
+}
+.quiz-head{
+    padding:2rem ;
+}
+select{
+   font-variant: small-caps;
+    background-color:gainsboro ;
+    color:red ;
+    margin-left:4em ;
+    font-size:130px ;
+}
+h2{
+    color: #90e704;
+    padding:1rem ;
+    text-align:center ;
+    margin:0 ;
+  
+}
+ul{
+    list-style-type:none;
+    padding:0.9rem ;
+    color:red ;
+   
+}
+ul li{
+    font-size:1.2rem ;
+    cursor: pointer;
+    margin:1rem 0;
+    font-size:1.4rem ;
+}
+ul li label{
+    cursor: pointer;
+}
+button{
+    background-color: #7d1b02;;
+    cursor: pointer;
+    width:100%;
+    color:wheat ;
+    display: block;
+    font-size:1.6rem ;
+    padding:0.4rem ;
+}
+button:hover{
+    background-color: #3d0c00 ;
+}
+button:focus{
+     outline:none;
+    background-color:black;
+}
+select{
+    font-size: small;
+    position: relative;
+    left:30px ;
+}
+@media screen and (max-width:600px) {
+    body{
+      display:flex ;
+      flex-direction:flex-start ;
+      align-items:flex-start ;
+    }
+    
+}
